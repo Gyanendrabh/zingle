@@ -36,7 +36,7 @@ const Message = ({message}:{message:Imessage}) => {
   return (
         <div className="flex gap-2">
                 <div className="h-10 w-10 rounded-full bg-red-300 flex items-center justify-center">
-                    <Image className='rounded-full' src={`${usernames[un_num]?.image}`} alt='pfp' height={50} width={50}/>
+                    <Image className='rounded-full' src={`${usernames[un_num].image}`} alt='pfp' height={50} width={50}/>
                 </div>
             <div className="flex-1">
                 <div className="flex items-center justify-between">
