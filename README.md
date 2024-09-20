@@ -2,9 +2,9 @@
 
 A real-time group chat application built with Next.js, TypeScript, Supabase, and Tailwind CSS. This application allows users to communicate in groups, with features for message editing, deletion, and email authentication.
 
-## Name - Gyanendra Bhardwaj 
-## University - IIT Jodhpur
-## Department - Mechanical Engineering
+### Name - Gyanendra Bhardwaj 
+### University - IIT Jodhpur
+### Department - Mechanical Engineering
 
 ## Table of Contents
 
