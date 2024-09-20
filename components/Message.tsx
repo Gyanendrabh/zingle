@@ -31,12 +31,12 @@ const Message = ({message}:{message:Imessage}) => {
         const result = (Math.abs(hash) % 15) + 1;
         return result;
     }
-    const serial_number = generateIntegerFromInput(message.users?.id);
+    const un_num = generateIntegerFromInput(message.users?.id);
     const user = useUser((state)=>state.user);
   return (
         <div className="flex gap-2">
                 <div className="h-10 w-10 rounded-full bg-red-300 flex items-center justify-center">
-                    <Image className='rounded-full' src={`${usernames[serial_number].image}`} alt='pfp' height={50} width={50}/>
+                    <Image className='rounded-full' src={`${usernames[un_num]?.image}`} alt='pfp' height={50} width={50}/>
                 </div>
             <div className="flex-1">
                 <div className="flex items-center justify-between">
@@ -44,7 +44,7 @@ const Message = ({message}:{message:Imessage}) => {
 
                    
                      <h1 className="font-bold">
-                        {`${usernames[serial_number].username}`}
+                        {`${usernames[un_num].username}`}
                        
                     </h1>
                      <h1 className="text-sm text-gray-400">
