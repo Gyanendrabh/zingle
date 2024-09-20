@@ -71,11 +71,11 @@ async function onSubmit(data: z.infer<typeof FormSchema>) {
             });
         }else{
             toast({
-                title: "You submitted the following values:",
+                title: "Email sent successfully",
                 description: (
                     <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
                         <code className="text-white">
-                            Successfully registered
+                            Please check your inbox and follow the link to verify your account
                         </code>
                     </pre>
                 ),
