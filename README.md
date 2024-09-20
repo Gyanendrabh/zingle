@@ -48,29 +48,28 @@ Ensure you have the following installed on your machine:
 2. **Setup environment variables**
 
     ```NEXT_PUBLIC_SUPABASE_URL = <Your supabase url>
-    
+     
+     #and
+     
     NEXT_PUBLIC_SUPABASE_ANON_KEY = <Your supabase anon key>
-
 
 3. **Install dependencies: If you're using npm:**
 
     ```bash
-npm i
-# or
-yarn add
-# or
-pnpm i
-
-
+    npm i
+    # or
+    yarn add
+    # or
+    pnpm i
 
 4. **Run the development servers**
 
     ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
 ```
