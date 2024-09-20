@@ -5,7 +5,7 @@ interface User {
     image: string;
 }
 
-export const usernames: User[] = [
+export const usernames = [
     { username: "brave_scholar", image: "/pfp_1.png" },
     { username: "sly_gamer", image: "/pfp_2.png" },
     { username: "quirky_explorer", image: "/pfp_3.png" },

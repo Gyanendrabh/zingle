@@ -13,7 +13,7 @@ export type Imessage= {
         created_at: string;
         email: string | null;
         id: string;
-        serial_number:number|any;
+        serial_number:number;
     } | null;
 }//this is the type of a single message this is why we did not include array at the end
 
